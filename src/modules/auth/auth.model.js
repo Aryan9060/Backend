@@ -32,23 +32,23 @@ const userSchema = new Schema(
     },
     varificationToken: {
       type: String,
-    //   select: false,
+      select: false,
       default: "",
     },
     forgotPasswordToken: {
       type: String,
-    //   select: false,
+      select: false,
       default: "",
     },
     resetPasswordToken: {
       type: String,
-    //   select: false,
+      select: false,
       default: "",
     },
     resetPasswordExpires: {
       type: Date,
       select: false,
-    //   default: Date.now,
+      default: Date.now,
     },
   },
   {
